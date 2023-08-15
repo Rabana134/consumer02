@@ -1,0 +1,309 @@
+.downloadOurApps {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 170%;
+  font-weight: 500;
+}
+.appstoreButtonIcon,
+.playstoreButtonIcon {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  width: 175px;
+  height: 55.19px;
+  overflow: hidden;
+}
+.appstoreButtonIcon {
+  top: 138px;
+  height: 54.52px;
+}
+.download {
+  position: absolute;
+  top: 64px;
+  left: 1179px;
+  width: 185px;
+  height: 192.52px;
+  display: none;
+}
+.footerChild {
+  position: absolute;
+  top: 380.5px;
+  left: 79.5px;
+  border-top: 1px solid var(--color-gray-1200);
+  box-sizing: border-box;
+  width: 1281px;
+  height: 1px;
+}
+.layer2Icon {
+  position: absolute;
+  height: 6.7%;
+  width: 11.04%;
+  top: 12.88%;
+  right: 83.26%;
+  bottom: 80.43%;
+  left: 5.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.homeowners,
+.postAJob {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.postAJob {
+  font-weight: 500;
+}
+.homeownersParent,
+.loggworksParent,
+.postAJobParent,
+.professionalsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.postAJobParent {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-601);
+}
+.homeownersParent,
+.loggworksParent,
+.professionalsParent {
+  width: 131px;
+  flex-shrink: 0;
+  gap: var(--gap-6xs);
+}
+.loggworksParent,
+.professionalsParent {
+  width: 134px;
+}
+.loggworksParent {
+  width: 146px;
+}
+.followUs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 28px;
+}
+.loggworks1 {
+  position: relative;
+  width: 92px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.frameIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 17.25px;
+  height: 24px;
+  overflow: hidden;
+}
+.facebook {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  line-height: 170%;
+  font-weight: 500;
+}
+.frameGroup {
+  position: relative;
+  width: 107px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.frameIcon1 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 21.75px;
+  height: 24px;
+  overflow: hidden;
+}
+.twitter {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  line-height: 170%;
+  font-weight: 500;
+}
+.frameContainer,
+.frameParent1,
+.groupDiv,
+.mdilinkedinIcon {
+  position: relative;
+  width: 87px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.frameParent1,
+.groupDiv,
+.mdilinkedinIcon {
+  width: 113px;
+}
+.frameParent1,
+.mdilinkedinIcon {
+  width: 101px;
+}
+.mdilinkedinIcon {
+  width: 21px;
+  height: 24px;
+  overflow: hidden;
+}
+.linkedin {
+  position: relative;
+  line-height: 170%;
+  font-weight: 500;
+}
+.mdilinkedinParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.frameParent,
+.groupParent,
+.loggworksGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupParent {
+  gap: var(--gap-11xs);
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-100);
+}
+.frameParent,
+.loggworksGroup {
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  position: absolute;
+  top: 64px;
+  left: 412px;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  color: var(--white1);
+}
+.copyright2022Loggwork {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 1px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.contactUsParent,
+.termsOfUseParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.termsOfUseParent {
+  display: flex;
+}
+.contactUsParent {
+  display: none;
+}
+.frameChild1 {
+  position: relative;
+  border-right: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 1px;
+  height: 26px;
+  flex-shrink: 0;
+  display: none;
+}
+.copyright2022LoggworkLtdAParent,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  justify-content: flex-end;
+  gap: var(--gap-13xs);
+  text-align: right;
+}
+.copyright2022LoggworkLtdAParent {
+  position: absolute;
+  top: 422px;
+  left: 80px;
+  width: 1280px;
+  justify-content: space-between;
+  font-size: var(--p1-medium3-size);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--white1);
+  box-sizing: border-box;
+  width: 185px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.largeButtonsParent {
+  position: absolute;
+  top: 130px;
+  left: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+}
+.footer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-01);
+  overflow: hidden;
+}
+.prototypeFooter {
+  position: absolute;
+  top: 2441px;
+  left: 0;
+  width: 1440px;
+  height: 497px;
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-100);
+  font-family: var(--h31);
+}

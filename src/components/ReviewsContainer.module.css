@@ -1,0 +1,300 @@
+.reviews {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.span {
+  color: var(--color-darkslategray-300);
+}
+.div,
+.reviews1 {
+  position: absolute;
+}
+.div {
+  top: 2px;
+  left: 0;
+  line-height: 155%;
+  font-weight: 600;
+}
+.reviews1 {
+  top: 0;
+  left: 32px;
+  line-height: 28px;
+  color: var(--grey-201);
+}
+.groupChild,
+.parent {
+  position: absolute;
+  top: 0;
+  left: 115px;
+  width: 131px;
+  height: 28px;
+}
+.groupChild {
+  top: 3px;
+  left: 0;
+  width: 106.67px;
+  height: 20px;
+}
+.groupContainer,
+.stars {
+  position: relative;
+  flex-shrink: 0;
+}
+.groupContainer {
+  width: 246px;
+  height: 28px;
+}
+.stars {
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 63px;
+}
+.div1 {
+  position: absolute;
+  height: 100%;
+  width: 49.83%;
+  top: 0;
+  right: 50.17%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: var(--green-5003);
+}
+.div2,
+.wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+.wrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-901);
+  width: 453px;
+  height: 10px;
+}
+.div2 {
+  line-height: 24px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 42px;
+}
+.reviewBar,
+.reviewBarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reviewBarParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-19xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-102);
+}
+.groupParent {
+  font-size: var(--p1-medium3-size);
+  color: var(--green-5003);
+}
+.groupParent,
+.reviewsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.jun2021,
+.peoplename {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 451px;
+}
+.peoplename {
+  font-weight: 600;
+}
+.jun2021 {
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.avatarParent,
+.peoplenameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarParent {
+  width: 558px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xs);
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating {
+  position: absolute;
+  top: 0;
+  left: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starRatingWrapper {
+  position: relative;
+  width: 132px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.frameParent1 {
+  width: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.iAmEnjoying {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-201);
+  display: flex;
+  align-items: center;
+  width: 558px;
+}
+.reviews2 {
+  width: 558px;
+}
+.reviews2,
+.reviewsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.seeAll {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  text-decoration: underline;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--green-5003);
+  text-align: right;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameGroup {
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+}
+.verificationStatus {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  width: 57.02px;
+  height: 56px;
+}
+.licenseAndCertification {
+  position: absolute;
+  width: 100%;
+  top: 61.22%;
+  left: 0;
+  line-height: 155%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instanceParent {
+  position: relative;
+  width: 86px;
+  height: 98px;
+  flex-shrink: 0;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 57.02px;
+  height: 56px;
+}
+.network {
+  position: absolute;
+  width: 100%;
+  top: 76.54%;
+  left: 0;
+  line-height: 155%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instanceGroup {
+  position: relative;
+  width: 86px;
+  height: 81px;
+  flex-shrink: 0;
+}
+.groupParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.frameParent3,
+.verificationStatusParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-6003);
+}
+.frameParent,
+.verificationStatusParent {
+  gap: var(--gap-11xs);
+  font-size: var(--h31-size);
+  color: var(--grey-9003);
+}
+.frameParent {
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

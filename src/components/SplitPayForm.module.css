@@ -1,0 +1,387 @@
+.splitPay {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 36px;
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.citiessummary,
+.citiessummary1 {
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 215px;
+  flex-shrink: 0;
+}
+.citiessummary1 {
+  text-align: right;
+  width: 170px;
+}
+.citiessummaryParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.peoplename {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--grey-01);
+  display: flex;
+  align-items: center;
+  width: 510px;
+}
+.avatarParent,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarParent {
+  flex-direction: row;
+  gap: var(--gap-16xs);
+}
+.viewJobDetails {
+  position: relative;
+  text-decoration: underline;
+  line-height: 28px;
+  font-weight: 500;
+}
+.heyDontHave {
+  position: relative;
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  color: var(--grey-201);
+  display: flex;
+  align-items: center;
+  width: 558px;
+}
+.peoplename1,
+.viewJobDetailsParent {
+  font-size: var(--p1-medium3-size);
+  display: flex;
+  color: var(--green-5003);
+}
+.viewJobDetailsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.peoplename1 {
+  position: relative;
+  line-height: 28px;
+  align-items: center;
+  width: 170px;
+}
+.citiessummaryGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.citiessummary3,
+.peoplename2 {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 157px;
+}
+.peoplename2 {
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--green-5003);
+  width: 109px;
+}
+.citiessummaryContainer,
+.frameParent2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.citiessummaryContainer {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-18xs);
+  text-align: right;
+}
+.frameParent2 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.citiessummaryParent1,
+.frameContainer,
+.frameParent1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.citiessummaryParent1 {
+  display: none;
+  gap: var(--gap-13xs);
+}
+.frameContainer,
+.frameParent1 {
+  display: flex;
+}
+.frameParent1 {
+  gap: var(--gap-9xs);
+  font-size: var(--subcopy-medium3-size);
+}
+.frameContainer {
+  gap: var(--gap-11xs);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons,
+.largeButtons1 {
+  border-radius: var(--br-xs);
+  width: 267px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.largeButtons {
+  border: 1px solid var(--green-5003);
+}
+.largeButtons1 {
+  background-color: var(--green-5003);
+  color: var(--white1);
+}
+.largeButtonsParent {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+}
+.frameGroup {
+  gap: var(--gap-3xs);
+}
+.frameGroup,
+.splitPay1,
+.splitPayParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.splitPay1 {
+  border-bottom: 1px solid var(--grey-801);
+  padding: 0 0 var(--padding-sm);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.splitPayParent {
+  gap: var(--gap-9xs);
+}
+.paymentMethods {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.radioBtnIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.creditOrDebit {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.radioBtnParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.frameParent4,
+.paymentMethodsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent4 {
+  gap: var(--gap-11xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.paymentMethodsParent {
+  gap: var(--gap-13xs);
+  font-size: var(--p1-medium3-size);
+}
+.frameChild {
+  position: relative;
+  border-top: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.citiessummaryParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+  color: var(--grey-201);
+}
+.largeButtons2 {
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  width: 558px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.demarcationChild {
+  position: absolute;
+  top: 11.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+}
+.groupChild,
+.or {
+  position: absolute;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 47.74px;
+  height: 24px;
+}
+.or {
+  top: 5px;
+  left: 11.93px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  width: 23.87px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 250.65px;
+  width: 47.74px;
+  height: 24px;
+}
+.demarcation {
+  position: relative;
+  width: 558px;
+  height: 24px;
+  flex-shrink: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-400);
+}
+.payWith {
+  position: absolute;
+  width: 51.22%;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  display: inline-block;
+}
+.paypal2Icon {
+  position: absolute;
+  height: 73.68%;
+  width: 45.53%;
+  top: 21.05%;
+  right: 0;
+  bottom: 5.26%;
+  left: 54.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.payWithParent {
+  position: relative;
+  width: 125.5px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gold-200);
+  border: 1px solid var(--color-gold-200);
+  box-sizing: border-box;
+  width: 558px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--p1-medium3-size);
+  color: var(--color-midnightblue);
+}
+.frameParent,
+.frameParent3,
+.largeButtonsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.largeButtonsGroup {
+  gap: var(--gap-16xs);
+  text-align: center;
+  color: var(--white1);
+}
+.frameParent,
+.frameParent3 {
+  gap: var(--gap-9xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-01);
+}
+.frameParent {
+  position: absolute;
+  top: 88px;
+  left: 455px;
+  text-align: left;
+  font-size: var(--h21-size);
+  color: var(--grey-9003);
+  font-family: var(--h31);
+}

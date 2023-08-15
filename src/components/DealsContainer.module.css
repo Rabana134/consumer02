@@ -1,0 +1,191 @@
+.dealsAndOffers {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.dealOfTheDayChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-2xs) var(--br-2xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 118px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.avatarIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.businessName {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.avatarName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.icons16pxstar {
+  display: none;
+}
+.icons16pxstar,
+.icons16pxstar3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingNumber {
+  position: relative;
+  line-height: 20px;
+}
+.col,
+.ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ratings {
+  width: 86px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: var(--gap-19xs);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.col {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.colParent,
+.jobCategoryWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jobCategoryWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  text-align: right;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.colParent {
+  flex-direction: column;
+  gap: var(--gap-18xs);
+}
+.countdown {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--error-101);
+  text-align: right;
+}
+.frameContainer,
+.offerParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.offerParent {
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-102);
+}
+.frameContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.button {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.buttonWrapper,
+.frameGroup,
+.smallButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonWrapper {
+  flex-direction: row;
+}
+.frameGroup,
+.smallButtons {
+  align-self: stretch;
+}
+.smallButtons {
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 32px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-sm);
+  text-align: center;
+  color: var(--green-5003);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-16xs);
+}
+.dealOfTheDay,
+.dealOfTheDayInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dealOfTheDayInner {
+  align-self: stretch;
+  background-color: var(--white1);
+  padding: var(--padding-5xs);
+}
+.dealOfTheDay {
+  border-radius: var(--br-2xs);
+  box-shadow: var(--card1);
+  width: 358px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.dealOfTheDayParent,
+.dealsAndOffersParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.dealsAndOffersParent,
+.frameParent {
+  flex-direction: column;
+  font-size: var(--subcopy-medium3-size);
+}
+.dealsAndOffersParent {
+  position: absolute;
+  top: 457px;
+  left: 261px;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

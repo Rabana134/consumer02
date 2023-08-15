@@ -1,0 +1,20 @@
+.home,
+.homeInner {
+  background-color: var(--color-gray-100);
+}
+.homeInner {
+  position: absolute;
+  top: 136px;
+  left: 447px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-3xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home {
+  position: relative;
+  width: 100%;
+  height: 795px;
+  overflow-y: auto;
+}

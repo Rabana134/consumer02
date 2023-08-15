@@ -1,0 +1,417 @@
+.dealOfThe {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.dealOfTheDayChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-2xs) var(--br-2xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 118px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.avatarIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.businessName {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.avatarName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.icons16pxstar {
+  display: none;
+}
+.icons16pxstar,
+.icons16pxstar3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingNumber {
+  position: relative;
+  line-height: 20px;
+}
+.col,
+.ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ratings {
+  width: 86px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: var(--gap-19xs);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.col {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.colParent,
+.jobCategoryWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jobCategoryWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  text-align: right;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.colParent {
+  flex-direction: column;
+  gap: var(--gap-18xs);
+}
+.countdown,
+.span {
+  font-weight: 600;
+  color: var(--green-5003);
+}
+.countdown {
+  position: relative;
+  line-height: 20px;
+  color: var(--error-101);
+  text-align: right;
+}
+.frameContainer,
+.offerParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.offerParent {
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-102);
+}
+.frameContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.button {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.buttonWrapper,
+.smallButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.smallButtons {
+  align-self: stretch;
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 32px;
+  flex-shrink: 0;
+  padding: var(--padding-5xs) var(--padding-sm);
+  text-align: center;
+  color: var(--green-5003);
+}
+.dealOfTheDayInner,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.frameGroup {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.dealOfTheDayInner {
+  background-color: var(--white1);
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dealOfTheDay {
+  border-radius: var(--br-2xs);
+  box-shadow: var(--card1);
+  width: 358px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.dealOfTheDay,
+.dealOfTheDayGroup,
+.dealOfTheDayParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dealOfTheDayGroup {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.dealOfTheDayParent,
+.frameParent {
+  flex-direction: column;
+}
+.frameParent {
+  gap: var(--gap-3xs);
+  font-size: var(--subcopy-medium3-size);
+}
+.dealOfTheDayParent {
+  gap: var(--gap-6xs);
+}
+.avatarIcon4,
+.offersChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.offersChild {
+  border-radius: var(--br-2xs);
+  width: 228px;
+  height: 104px;
+}
+.avatarIcon4 {
+  width: 20px;
+  height: 20px;
+}
+.businessNameAndAvatar {
+  flex-direction: row;
+  align-items: center;
+}
+.businessNameAndAvatar,
+.businessNameAndAvatarParent,
+.ratings4 {
+  width: 228px;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.ratings4 {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.businessNameAndAvatarParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jobCategory4 {
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.countdown4,
+.jobCategory4,
+.offer4 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 228px;
+}
+.countdown4 {
+  font-weight: 600;
+  color: var(--error-101);
+}
+.offerParent2 {
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-102);
+}
+.frameParent8,
+.offerParent2 {
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  background-color: var(--white1);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  width: 228px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--green-5003);
+}
+.frameWrapper,
+.offers1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.offers1 {
+  width: 228px;
+  flex-shrink: 0;
+  gap: var(--gap-16xs);
+}
+.frameWrapper {
+  font-size: var(--subcopy-medium3-size);
+}
+.imageIcon {
+  position: relative;
+  border-radius: var(--br-2xs);
+  width: 228px;
+  height: 95px;
+  flex-shrink: 0;
+}
+.avatarParent {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.ratingNumber7 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.jobCategory7,
+.ratings7 {
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.ratings7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-18xs);
+}
+.jobCategory7 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent17 {
+  gap: var(--gap-18xs);
+}
+.descriptionInner,
+.frameParent17 {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  border-radius: 0 0 var(--br-2xs) var(--br-2xs);
+  background-color: var(--white1);
+  width: 228px;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.description,
+.frameParent16,
+.professionals1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.professionals1 {
+  border-radius: var(--br-2xs);
+  box-shadow: var(--card1);
+  width: 228px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameParent16 {
+  gap: var(--gap-3xs);
+  font-size: var(--p1-medium3-size);
+}
+.imgIcon {
+  position: relative;
+  border-radius: var(--br-2xs);
+  width: 228px;
+  height: 107px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.electricians {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.electriciansWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent29,
+.professionals,
+.profiledescription,
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent29,
+.professionals,
+.services {
+  gap: var(--gap-13xs);
+}
+.frameParent29,
+.professionals {
+  gap: var(--gap-3xs);
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-102);
+}
+.professionals {
+  position: absolute;
+  top: 522px;
+  left: 261px;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

@@ -1,0 +1,272 @@
+.activities {
+  position: absolute;
+  top: 88px;
+  left: 455px;
+  font-size: var(--h21-size);
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  color: var(--grey-9003);
+}
+.tab1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.tab1Wrapper {
+  position: absolute;
+  height: calc(100% - 8px);
+  width: 48.57%;
+  top: 4px;
+  right: 50%;
+  bottom: 4px;
+  left: 1.43%;
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.tab2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.tab2Wrapper {
+  position: absolute;
+  height: calc(100% - 8px);
+  width: 49.28%;
+  top: 4px;
+  right: 0.72%;
+  bottom: 4px;
+  left: 50%;
+  border-radius: var(--br-2xs);
+  background-color: var(--white1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--green-5003);
+}
+.twoTabSwitch {
+  position: absolute;
+  top: 136px;
+  left: 455px;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-901);
+  width: 558px;
+  height: 52px;
+}
+.avatarIcon,
+.d,
+.peoplename {
+  position: relative;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  width: 40px;
+  height: 40px;
+}
+.d,
+.peoplename {
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.peoplename {
+  font-weight: 600;
+  width: 381px;
+}
+.d {
+  color: var(--grey-201);
+  text-align: right;
+  width: 73px;
+}
+.peoplenameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.jamesBowen {
+  font-weight: 500;
+  color: var(--green-5003);
+}
+.reviewForJamesContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.reviewForJamesContainer {
+  position: relative;
+  line-height: 24px;
+  display: none;
+  align-items: center;
+  width: 389px;
+  flex-shrink: 0;
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.reviewForJamesBowenParent,
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewForJamesBowenParent {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-2xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.avatarParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.avatarParent {
+  flex-direction: row;
+  gap: var(--gap-13xs);
+  color: var(--grey-01);
+}
+.imagesChild {
+  position: relative;
+  border-radius: var(--br-md);
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.images {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.youveHeardThis {
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 558px;
+}
+.imagesParent {
+  width: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xs);
+}
+.div,
+.iconseye {
+  position: relative;
+}
+.iconseye {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.div {
+  line-height: 155%;
+  font-weight: 500;
+}
+.iconseyeParent {
+  align-items: center;
+  gap: var(--gap-18xs);
+}
+.frameGroup,
+.iconseyeParent,
+.viewsLikes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.viewsLikes {
+  width: 558px;
+  align-items: center;
+  gap: var(--gap-19xl);
+}
+.bottomChild {
+  position: relative;
+  border-top: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+}
+.communityMessages,
+.images1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.communityMessages {
+  width: 558px;
+  flex-direction: column;
+  gap: var(--gap-13xs);
+}
+.images1 {
+  flex-direction: row;
+  gap: var(--gap-16xs);
+}
+.communityMessagesParent,
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.communityMessagesParent {
+  top: 200px;
+  left: 455px;
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.overlay {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-1000);
+  width: 1440px;
+  height: 943px;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+.messages {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 899px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

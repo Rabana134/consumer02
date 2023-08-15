@@ -1,0 +1,44 @@
+.iconsadd {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  position: absolute;
+  height: 66.67%;
+  width: 87.48%;
+  top: 16.67%;
+  right: 6.26%;
+  bottom: 16.67%;
+  left: 6.26%;
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.largeButtonsWrapper {
+  position: absolute;
+  top: 558px;
+  left: 0;
+  background-color: var(--white1);
+  box-shadow: 0-1px 5px rgba(0, 0, 0, 0.1);
+  width: 511px;
+  height: 72px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+  font-family: var(--h31);
+}

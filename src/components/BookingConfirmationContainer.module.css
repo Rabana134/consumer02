@@ -1,0 +1,135 @@
+.fluentcheckmarkStarburst16Icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.yourBookingHas {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.aConfirmationMail {
+  position: relative;
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  color: var(--grey-201);
+  display: inline-block;
+  width: 325px;
+}
+.fluentcheckmarkStarburst16Parent,
+.yourBookingHasBeenConfirmeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fluentcheckmarkStarburst16Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xs);
+}
+.frameChild {
+  position: relative;
+  border-top: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div,
+.subTotal {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 364px;
+  flex-shrink: 0;
+}
+.div {
+  font-weight: 600;
+  text-align: right;
+  width: 171px;
+}
+.subTotalParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.b {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  color: var(--primary-101);
+  text-align: right;
+  align-items: center;
+  width: 171px;
+  flex-shrink: 0;
+}
+.frameContainer,
+.orderSummaryParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.orderSummaryParent {
+  gap: var(--gap-11xs);
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  width: 558px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+}
+.frameParent {
+  position: absolute;
+  top: 144px;
+  left: 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-102);
+  font-family: var(--h31);
+}

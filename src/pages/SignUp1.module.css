@@ -1,0 +1,14 @@
+.logoIcon {
+  position: absolute;
+  top: 28px;
+  left: 100px;
+  width: 197.33px;
+  height: 32px;
+}
+.signUp {
+  position: relative;
+  background-color: var(--white1);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+}

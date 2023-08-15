@@ -1,0 +1,162 @@
+.navigationChild,
+.navigationItem {
+  position: absolute;
+  top: 28px;
+  left: 100px;
+  width: 148px;
+  height: 24px;
+}
+.navigationItem {
+  top: 79px;
+  left: 0;
+  background-color: var(--grey-801);
+  width: 1440px;
+  height: 1px;
+}
+.description {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.selector {
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--grey-01);
+  width: 111px;
+  height: 3px;
+  flex-shrink: 0;
+  opacity: 0;
+}
+.descriptionParent,
+.pageSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionParent {
+  gap: var(--gap-6xs);
+}
+.pageSelector {
+  padding: var(--padding-md) var(--padding-5xs) 0;
+}
+.description1 {
+  position: relative;
+  line-height: 28px;
+}
+.selector1 {
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--grey-01);
+  width: 111px;
+  height: 3px;
+  flex-shrink: 0;
+}
+.pageSelector1 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md) var(--padding-5xs) 0;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey-01);
+}
+.tabSwitch {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.iconssearch {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconssearchWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--white1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.electrician {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  line-height: 28px;
+  display: inline-block;
+  width: 119px;
+}
+.divider,
+.iconslocation {
+  position: relative;
+  flex-shrink: 0;
+}
+.divider {
+  background-color: var(--color-gainsboro-300);
+  width: 1px;
+  height: 28px;
+}
+.iconslocation {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.locationOrPostcode {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  width: 165px;
+  flex-shrink: 0;
+}
+.dividerParent,
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.dividerParent {
+  position: absolute;
+  top: 10px;
+  left: 153px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigation,
+.searchBar {
+  background-color: var(--white1);
+}
+.searchBar {
+  position: absolute;
+  top: 16px;
+  left: 312px;
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  width: 420px;
+  height: 48px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--grey-401);
+}
+.navigation {
+  position: relative;
+  width: 1440px;
+  height: 80px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

@@ -1,0 +1,183 @@
+.ads,
+.promotions {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ads {
+  line-height: 20px;
+  font-weight: 600;
+}
+.adsWrapper,
+.promotionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.adsWrapper {
+  border-radius: var(--br-2xs);
+  background-color: var(--yellow-5001);
+  padding: var(--padding-8xs) var(--padding-7xs);
+  text-align: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--white1);
+}
+.promotionsParent {
+  gap: var(--gap-13xs);
+}
+.imgIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-2xs) var(--br-2xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imgWrapper {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.avatarIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.businessName {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.businessNameAndAvatar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingNumber {
+  position: relative;
+  line-height: 20px;
+}
+.businessNameAndAvatarParent,
+.ratings {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.ratings {
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.businessNameAndAvatarParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jobCategory {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--caption-regular1-size);
+  line-height: 20px;
+  color: var(--grey-201);
+}
+.frameGroup {
+  gap: var(--gap-19xs);
+}
+.descriptionInner,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.largeButtons {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--white1);
+}
+.description {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-md) var(--br-md);
+  background-color: var(--white1);
+  padding: var(--padding-5xs);
+  gap: var(--gap-18xs);
+}
+.description,
+.frameParent,
+.promotions1,
+.promotions2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.promotions2 {
+  border-radius: var(--br-2xs);
+  box-shadow: var(--card1);
+  width: 360px;
+  height: 258px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameParent,
+.promotions1 {
+  gap: var(--gap-3xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-01);
+}
+.frameParent {
+  position: absolute;
+  top: 88px;
+  left: 1040px;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-9003);
+  font-family: var(--h31);
+}

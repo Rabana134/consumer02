@@ -1,0 +1,70 @@
+.greatSessionDani {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  width: 410px;
+}
+.frameChild {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cameronWilliamson {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameParent,
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  color: var(--white1);
+}
+.greatSessionDaniWasSuperParent,
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.greatSessionDaniWasSuperParent {
+  gap: var(--gap-11xs);
+}
+.testimonial {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-900);
+  backdrop-filter: blur(60px);
+  border: 1px solid var(--grey-601);
+  padding: var(--padding-xs);
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-901);
+  font-family: var(--h31);
+}

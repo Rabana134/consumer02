@@ -1,0 +1,94 @@
+.iconschevronRight {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--grey-801);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.subscriptions {
+  position: absolute;
+  top: 6px;
+  left: 194px;
+  line-height: 28px;
+}
+.icons16pxadd {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.icons16pxaddParent,
+.smallButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons16pxaddParent {
+  gap: var(--gap-18xs);
+}
+.smallButtons {
+  position: absolute;
+  top: 0;
+  right: 387px;
+  border-radius: var(--br-2xs);
+  background-color: var(--green-5003);
+  width: 107px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+}
+.merge {
+  position: relative;
+  width: 1139px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.border,
+.pageTitle {
+  box-sizing: border-box;
+}
+.border {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--grey-801);
+  height: 1px;
+  flex-shrink: 0;
+}
+.pageTitle {
+  position: absolute;
+  top: 68px;
+  left: 221px;
+  background-color: var(--white1);
+  width: 1219px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-3xl) 0;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

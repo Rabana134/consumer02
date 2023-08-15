@@ -1,0 +1,43 @@
+.imgContainerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--grey-801);
+  width: 558px;
+  height: 220px;
+}
+.imgContainerInner,
+.imgContainerItem {
+  position: absolute;
+  top: 16px;
+  left: 502px;
+  width: 40px;
+  height: 40px;
+}
+.imgContainerInner {
+  left: 450px;
+}
+.contentChild {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.content {
+  position: absolute;
+  top: 194px;
+  left: 238px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.imgContainer {
+  position: absolute;
+  top: 128px;
+  left: 358px;
+  width: 558px;
+  height: 220px;
+}

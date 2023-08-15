@@ -1,0 +1,135 @@
+.booking,
+.sun01July {
+  position: relative;
+  line-height: 28px;
+}
+.booking {
+  font-weight: 600;
+}
+.sun01July {
+  color: var(--grey-201);
+}
+.bookingParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.minsAgo {
+  position: relative;
+  line-height: 28px;
+  color: var(--grey-201);
+  text-align: right;
+}
+.top {
+  align-self: stretch;
+  border-bottom: 1px dashed var(--grey-801);
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.smithsConstructions {
+  font-weight: 500;
+  color: var(--green-5003);
+}
+.youHaveAnContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  color: var(--grey-8003);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 44px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+}
+.content,
+.largeButtons {
+  align-self: stretch;
+  gap: var(--gap-16xs);
+}
+.container,
+.content,
+.notifcations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  padding: var(--padding-3xs);
+}
+.notifcations {
+  border-radius: var(--br-md);
+  background-color: var(--white1);
+  box-shadow: var(--card1);
+  width: 558px;
+}
+.largeButtons1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+}
+.notifcations2,
+.notifcationsParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notifcations2 {
+  border-radius: var(--br-md);
+  background-color: var(--white1);
+  box-shadow: var(--card1);
+  width: 558px;
+  display: none;
+}
+.notifcationsParent {
+  position: absolute;
+  top: 260px;
+  left: 455px;
+  display: flex;
+  gap: var(--gap-13xs);
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

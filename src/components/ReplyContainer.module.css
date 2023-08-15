@@ -1,0 +1,148 @@
+.avatarChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.ac {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.avatar {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.span {
+  color: var(--grey-01);
+}
+.jamesBowen {
+  font-weight: 600;
+  color: var(--green-5003);
+}
+.peoplename {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  text-align: left;
+}
+.avatarParent {
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.avatarParent,
+.howDoYou,
+.minsAgo,
+.top {
+  display: flex;
+  align-items: center;
+}
+.minsAgo {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  text-align: right;
+  width: 106px;
+  flex-shrink: 0;
+}
+.howDoYou,
+.top {
+  width: 558px;
+}
+.top {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.howDoYou {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  text-align: left;
+}
+.comments,
+.qa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.qa {
+  gap: var(--gap-13xs);
+}
+.comments {
+  border-bottom: 1px solid var(--grey-801);
+  padding: 0 0 var(--padding-xs);
+}
+.howDoYou1,
+.minsAgo1,
+.peoplename1 {
+  position: relative;
+  line-height: 28px;
+}
+.howDoYou1,
+.minsAgo1 {
+  display: flex;
+  align-items: center;
+}
+.minsAgo1 {
+  text-align: right;
+  width: 106px;
+  flex-shrink: 0;
+}
+.howDoYou1 {
+  width: 558px;
+}
+.comments1 {
+  border-bottom: 1px solid var(--grey-801);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+}
+.avatarItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+.ac1 {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.comments2,
+.commentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comments2 {
+  border-bottom: 1px solid var(--grey-801);
+  padding: 0 0 var(--padding-xs);
+  font-size: var(--caption-regular1-size);
+}
+.commentsParent {
+  position: absolute;
+  top: 261px;
+  left: 455px;
+  gap: var(--gap-13xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

@@ -1,0 +1,49 @@
+.frameChild,
+.iconslocation {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild {
+  border-radius: var(--br-2xs);
+  width: 558px;
+  height: 116px;
+}
+.iconslocation {
+  width: 24px;
+  height: 24px;
+}
+.gibsonCloseWaterbeach {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.iconslocationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.miles {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: right;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-13xs);
+  text-align: left;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

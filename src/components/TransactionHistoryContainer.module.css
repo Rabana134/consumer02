@@ -1,0 +1,95 @@
+.transactionIcons {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.deposit,
+.div {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  width: 340px;
+  flex-shrink: 0;
+}
+.div {
+  text-align: right;
+  width: 170px;
+}
+.depositParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pending,
+.pm {
+  position: relative;
+}
+.pm {
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 219px;
+  flex-shrink: 0;
+}
+.pending {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.transactionPills {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--tertiary-1001);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  align-items: center;
+  justify-content: flex-end;
+}
+.transactionPillsWrapper {
+  position: relative;
+  width: 170px;
+  height: 18px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: var(--font-size-4xs);
+  color: var(--tertiary-101);
+}
+.pmParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-21);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-19xs);
+}
+.frameParent,
+.transactionHistory,
+.transactionIconsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transactionIconsParent {
+  flex-direction: row;
+  gap: var(--gap-16xs);
+}
+.transactionHistory {
+  border-bottom: 1px solid var(--grey-801);
+  flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

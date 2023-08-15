@@ -1,0 +1,76 @@
+.referEarnChild {
+  position: absolute;
+  top: 67px;
+  left: 221px;
+  background-color: var(--green-1001);
+  width: 1219px;
+  height: 475px;
+}
+.groupIcon {
+  position: absolute;
+  height: 110.57%;
+  width: 84.65%;
+  top: 0;
+  right: 0;
+  bottom: -10.57%;
+  left: 15.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.3;
+}
+.referYourFriends {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 336px;
+}
+.frameChild {
+  position: absolute;
+  top: 106.12px;
+  left: 98px;
+  width: 179px;
+  height: 131.76px;
+}
+.frameItem {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.loggpoints {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.frameParent {
+  position: absolute;
+  top: 248px;
+  left: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--color-black);
+}
+.referYourFriendsAndEarnParent {
+  position: absolute;
+  top: 127px;
+  left: 663px;
+  width: 336px;
+  height: 272px;
+}
+.referEarn {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 795px;
+  text-align: center;
+  font-size: 40px;
+  color: var(--green-5003);
+  font-family: var(--h31);
+}

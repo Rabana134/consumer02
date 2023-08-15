@@ -1,0 +1,114 @@
+.inputChild {
+  position: absolute;
+  top: 16px;
+  left: 704px;
+  border-radius: var(--br-xs);
+  width: 48px;
+  height: 48px;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 28px;
+  font-weight: 500;
+}
+.labelContainer {
+  align-self: stretch;
+  position: relative;
+  height: 28px;
+  flex-shrink: 0;
+  display: none;
+}
+.iconsattachment {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.userInput {
+  position: absolute;
+  width: calc(100% - 16px);
+  top: 10px;
+  left: 8px;
+  line-height: 28px;
+  display: inline-block;
+}
+.dotChild {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+}
+.dot {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-17xs);
+}
+.baseField {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-100);
+  border: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--grey-401);
+}
+.div,
+.thisIsA {
+  position: absolute;
+  top: 0;
+  line-height: 24px;
+}
+.thisIsA {
+  left: 0;
+}
+.div {
+  right: 0;
+  text-align: right;
+}
+.helperTextContainer {
+  align-self: stretch;
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+  font-size: var(--subcopy-medium3-size);
+}
+.input,
+.input1 {
+  position: absolute;
+}
+.input1 {
+  top: 16px;
+  left: 40px;
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.input {
+  top: 70%;
+  left: 649px;
+  background-color: var(--white1);
+  box-shadow: 0-1px 2px rgba(0, 0, 0, 0.04);
+  width: 791px;
+  height: 88px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

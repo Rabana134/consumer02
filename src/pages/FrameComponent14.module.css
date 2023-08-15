@@ -1,0 +1,21 @@
+.payWithSplit {
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+.payWithSplitPayParent {
+  position: relative;
+  background-color: var(--green-5003);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-8xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--white1);
+  font-family: var(--h31);
+}

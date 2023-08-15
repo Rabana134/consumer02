@@ -1,0 +1,38 @@
+.contentChild,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  border-radius: var(--br-2xs);
+  width: 748px;
+  height: 292px;
+  object-fit: cover;
+}
+.contentChild {
+  width: 10px;
+  height: 10px;
+}
+.content,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.rectangleParent {
+  position: absolute;
+  top: 164px;
+  left: 261px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.home {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2563px;
+  overflow: hidden;
+}

@@ -1,0 +1,336 @@
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.peoplename {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 349px;
+}
+.date,
+.peoplename {
+  position: relative;
+  line-height: 24px;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--grey-201);
+  width: 1px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.dateParent,
+.peoplenameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.dateParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-18xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.peoplenameParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.avatarParent,
+.electricianRequiredTo {
+  display: flex;
+  align-items: center;
+  width: 558px;
+}
+.avatarParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.electricianRequiredTo {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-102);
+}
+.iconscalendar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameDiv,
+.iconscalendarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.frameDiv {
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.citiessummary3 {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.frameContainer {
+  gap: var(--gap-16xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.bookingsCard,
+.bookingsCardWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingsCard {
+  gap: var(--gap-13xs);
+}
+.bookingsCardWrapper {
+  border-bottom: 1px solid var(--grey-801);
+  padding: 0 0 var(--padding-sm);
+  font-size: var(--p1-bold1-size);
+}
+.selectAPayment {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.radioBtnIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.radioBtnContainer,
+.radioBtnParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.radioBtnParent {
+  display: flex;
+}
+.radioBtnContainer {
+  display: none;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.div,
+.frameItem,
+.subTotal {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameItem {
+  border-top: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+}
+.div,
+.subTotal {
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 364px;
+}
+.div {
+  font-weight: 600;
+  text-align: right;
+  width: 171px;
+}
+.subTotalParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.b {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  color: var(--primary-101);
+  text-align: right;
+  align-items: center;
+  width: 171px;
+  flex-shrink: 0;
+}
+.frameGroup,
+.frameParent2,
+.orderSummaryParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  gap: var(--gap-13xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.frameGroup,
+.orderSummaryParent {
+  gap: var(--gap-11xs);
+}
+.frameGroup {
+  gap: var(--gap-9xs);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  width: 558px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  cursor: pointer;
+}
+.demarcationChild {
+  position: absolute;
+  top: 11.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  width: 559px;
+  height: 1px;
+}
+.groupChild,
+.or {
+  position: absolute;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 47.74px;
+  height: 24px;
+}
+.or {
+  top: 5px;
+  left: 11.93px;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  width: 23.87px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 250.65px;
+  width: 47.74px;
+  height: 24px;
+}
+.demarcation {
+  position: relative;
+  width: 558px;
+  height: 24px;
+  flex-shrink: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-400);
+}
+.payWith {
+  position: absolute;
+  width: 51.22%;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  display: inline-block;
+}
+.paypal2Icon {
+  position: absolute;
+  height: 73.68%;
+  width: 45.53%;
+  top: 21.05%;
+  right: 0;
+  bottom: 5.26%;
+  left: 54.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.payWithParent {
+  position: relative;
+  width: 125.5px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gold-200);
+  border: 1px solid var(--color-gold-200);
+  box-sizing: border-box;
+  width: 558px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--p1-medium3-size);
+  color: var(--color-midnightblue);
+}
+.largeButtonsParent {
+  flex-direction: column;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+}
+.frameParent,
+.homeInner,
+.largeButtonsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.homeInner {
+  position: absolute;
+  top: 136px;
+  left: 447px;
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-3xl);
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

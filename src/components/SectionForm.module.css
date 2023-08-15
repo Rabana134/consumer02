@@ -1,0 +1,79 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-400);
+  width: 1440px;
+  height: 236px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 0;
+  height: 56px;
+}
+.groupItem {
+  left: 0;
+  border-radius: var(--br-lg);
+  border: 1px solid var(--color-gray-1300);
+  box-sizing: border-box;
+  width: 892px;
+}
+.groupInner {
+  left: 712px;
+  border-radius: 0 var(--br-lg) var(--br-lg) 0;
+  background-color: var(--color-limegreen-100);
+  width: 180px;
+}
+.submit {
+  position: absolute;
+  top: 20px;
+  left: 764px;
+  letter-spacing: 0.2em;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.enterYourEmail {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  font-size: var(--h31-size);
+  line-height: 150%;
+  font-family: var(--paragraph-var-21);
+  color: var(--color-gray-1400);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 892px;
+  height: 56px;
+}
+.joinOurNewsletter {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  font-size: var(--h21-size);
+  line-height: 170%;
+  font-weight: 100;
+  color: var(--color-black);
+}
+.groupParent,
+.rectangleParent {
+  position: absolute;
+  top: 56px;
+  left: 274px;
+  width: 892px;
+  height: 105px;
+}
+.rectangleParent {
+  top: 8310px;
+  left: 0;
+  width: 1440px;
+  height: 236px;
+  text-align: left;
+  font-size: var(--p1-bold1-size);
+  color: var(--white1);
+  font-family: var(--h31);
+}

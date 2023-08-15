@@ -1,0 +1,80 @@
+.activeJobPostsChild {
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  width: 558px;
+  height: 99px;
+  flex-shrink: 0;
+}
+.electricianNeeded {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 534px;
+}
+.imInNeed {
+  position: relative;
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  color: var(--grey-201);
+  display: inline-block;
+  width: 534px;
+}
+.electricianNeededParent {
+  width: 534px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.iconsplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.citiessummary {
+  position: relative;
+  line-height: 24px;
+}
+.frameGroup,
+.iconsplaceholderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-15xs);
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-18xs);
+  font-size: var(--subcopy-medium3-size);
+}
+.frameParent {
+  display: flex;
+  gap: var(--gap-16xs);
+}
+.activeJobPosts,
+.activeJobPostsInner,
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.activeJobPostsInner {
+  display: flex;
+  padding: var(--padding-3xs);
+}
+.activeJobPosts {
+  border-radius: var(--br-xs);
+  background-color: var(--white1);
+  box-shadow: var(--card1);
+  display: none;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

@@ -1,0 +1,74 @@
+.ads,
+.promotions1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.ads {
+  line-height: 20px;
+}
+.adsWrapper,
+.promotions,
+.promotionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adsWrapper {
+  border-radius: var(--br-2xs);
+  background-color: var(--yellow-5001);
+  padding: var(--padding-8xs) var(--padding-7xs);
+  justify-content: center;
+  text-align: center;
+  font-size: var(--caption-regular1-size);
+  color: var(--white1);
+}
+.promotions,
+.promotionsParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.promotions {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-9003);
+}
+.dealsAndOffers {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.content,
+.dealsOffers,
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.content,
+.dealsOffers,
+.frameGroup {
+  gap: var(--gap-6xs);
+}
+.content,
+.frameGroup {
+  gap: var(--gap-3xs);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.content {
+  align-items: center;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

@@ -1,0 +1,260 @@
+.booking,
+.sun01July {
+  position: relative;
+  line-height: 28px;
+}
+.booking {
+  font-weight: 600;
+}
+.sun01July {
+  color: var(--grey-201);
+}
+.bookingParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.minsAgo {
+  position: relative;
+  line-height: 28px;
+  color: var(--grey-201);
+  text-align: right;
+}
+.top {
+  align-self: stretch;
+  border-bottom: 1px dashed var(--grey-801);
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.smithsConstructions {
+  font-weight: 500;
+  color: var(--green-5003);
+}
+.youHaveAnContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  color: var(--grey-8003);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 44px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+}
+.content,
+.largeButtons {
+  align-self: stretch;
+  gap: var(--gap-16xs);
+}
+.container,
+.content,
+.notifcations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  padding: var(--padding-3xs);
+}
+.notifcations {
+  border-radius: var(--br-md);
+  background-color: var(--white1);
+  box-shadow: var(--card1);
+  width: 558px;
+}
+.largeButtons1 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+}
+.messagesInner,
+.notifcationsParent,
+.tab1Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notifcationsParent {
+  flex-direction: column;
+  gap: var(--gap-13xs);
+}
+.messagesInner,
+.tab1Wrapper {
+  position: absolute;
+  top: 252px;
+  left: 447px;
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-3xl);
+}
+.tab1Wrapper {
+  height: calc(100% - 8px);
+  width: 49.28%;
+  top: 4px;
+  right: 50%;
+  bottom: 4px;
+  left: 0.72%;
+  border-radius: var(--br-2xs);
+  background-color: var(--white1);
+  padding: var(--padding-7xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tab2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.tab2Wrapper {
+  position: absolute;
+  height: calc(100% - 8px);
+  width: 48.57%;
+  top: 4px;
+  right: 1.43%;
+  bottom: 4px;
+  left: 50%;
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--grey-201);
+}
+.twoTabSwitch {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-901);
+}
+.prototypeActivitesTab {
+  position: relative;
+  width: 558px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.booking5 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  mix-blend-mode: normal;
+}
+.all {
+  border-bottom: 2px solid var(--green-5003);
+  box-sizing: border-box;
+  width: 111.6px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  color: var(--green-5003);
+}
+.booking7 {
+  position: relative;
+  line-height: 28px;
+  mix-blend-mode: normal;
+}
+.payment {
+  width: 111.6px;
+  flex-shrink: 0;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.allParent,
+.payment,
+.tabsSubSwitch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tabsSubSwitch {
+  background-color: var(--color-gray-100);
+  border-bottom: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 558px;
+  flex-direction: column;
+}
+.prototypeActivitesTabParent,
+.subTabActivities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subTabActivities {
+  text-align: center;
+  color: var(--grey-201);
+}
+.prototypeActivitesTabParent {
+  position: absolute;
+  top: 144px;
+  left: 455px;
+  gap: var(--gap-16xs);
+  color: var(--green-5003);
+}
+.messages {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 795px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

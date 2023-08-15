@@ -1,0 +1,273 @@
+.contentChild,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  border-radius: var(--br-2xs);
+  width: 748px;
+  height: 292px;
+  object-fit: cover;
+}
+.contentChild {
+  width: 10px;
+  height: 10px;
+}
+.content,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.rectangleParent {
+  position: absolute;
+  top: 164px;
+  left: 261px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xs);
+}
+.logPoints {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 118px;
+  height: 118px;
+}
+.b,
+.points {
+  position: relative;
+  line-height: 28px;
+}
+.points {
+  font-size: var(--caption-regular1-size);
+  line-height: 20px;
+  color: var(--grey-201);
+}
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  position: absolute;
+  top: 33px;
+  left: 38px;
+  width: 41px;
+  height: 48px;
+}
+.of5000 {
+  position: absolute;
+  top: 106px;
+  left: 35px;
+  font-size: var(--caption-regular1-size);
+  line-height: 20px;
+  color: var(--grey-201);
+}
+.groupParent {
+  position: absolute;
+  width: calc(100% - 175px);
+  top: 55px;
+  right: 87px;
+  left: 88px;
+  height: 126px;
+  text-align: center;
+  font-size: var(--h31-size);
+}
+.howToEarn {
+  position: relative;
+  line-height: 20px;
+}
+.iconswarning {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.howToEarnPointsAndLevelUParent {
+  position: absolute;
+  top: 201px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.logPointsParent {
+  position: absolute;
+  top: 128px;
+  left: 0;
+  background-color: var(--white1);
+  width: 293px;
+  height: 241px;
+  font-size: var(--subcopy-medium3-size);
+}
+.account1,
+.settings {
+  position: absolute;
+  top: 385px;
+  left: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.settings {
+  top: 600px;
+}
+.iconslogCash {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logCash {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent,
+.iconslogCashParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconslogCashParent {
+  flex: 1;
+  gap: var(--gap-16xs);
+}
+.frameParent {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 261px;
+  gap: var(--gap-8xl);
+}
+.settings1 {
+  position: relative;
+  width: 293px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.settingsParent {
+  position: absolute;
+  top: 408px;
+  left: 0;
+  background-color: var(--white1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--grey-201);
+}
+.settings7 {
+  position: relative;
+  width: 293px;
+  height: 44px;
+  flex-shrink: 0;
+  display: none;
+}
+.iconslogoutParent,
+.settingsGroup {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.settingsGroup {
+  top: 623px;
+  left: 0;
+  background-color: var(--white1);
+  flex-direction: column;
+  color: var(--grey-201);
+}
+.iconslogoutParent {
+  top: 859px;
+  left: 107px;
+  width: 80px;
+  flex-direction: row;
+  gap: var(--gap-16xs);
+  color: var(--error-101);
+}
+.avatarIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.crosbyOdennehy {
+  position: relative;
+  line-height: 24px;
+}
+.avatarParent,
+.crosbyOdennehyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatarParent {
+  position: absolute;
+  top: calc(50% - 42px);
+  left: calc(50% - 89.5px);
+  gap: var(--gap-16xs);
+}
+.userInformation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white1);
+  height: 116px;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+}
+.account,
+.scroll {
+  position: absolute;
+  width: 293px;
+}
+.scroll {
+  top: 0;
+  left: 0;
+  height: 584px;
+  overflow-y: auto;
+}
+.account {
+  top: 57px;
+  left: 1107px;
+  border-radius: var(--br-2xs);
+  background-color: var(--grey-100);
+  box-shadow: var(--popup);
+  height: 688px;
+  overflow: hidden;
+}
+.home {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2563px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

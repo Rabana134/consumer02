@@ -1,0 +1,43 @@
+.helloCraigIm,
+.pm {
+  position: relative;
+  line-height: 24px;
+}
+.pm {
+  font-size: var(--caption-regular1-size);
+  line-height: 20px;
+  color: var(--grey-201);
+  text-align: right;
+}
+.chatRightInner,
+.helloCraigImDonaldParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.helloCraigImDonaldParent {
+  gap: var(--gap-16xs);
+}
+.chatRightInner {
+  border-radius: var(--br-2xs) 0 var(--br-2xs) var(--br-2xs);
+  background-color: var(--color-lightgoldenrodyellow);
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-5xs)
+    var(--padding-3xs);
+}
+.chatRightChild {
+  position: relative;
+  width: 9px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.chatRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

@@ -1,0 +1,59 @@
+.iconsscrew {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.jobManagement {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.iconsscrewParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+}
+.automaticallyManageYour {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.automaticallyManageYourJobsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.subscriptionList {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-19xs);
+}
+.subscriptionListWrapper {
+  align-self: stretch;
+  border-radius: var(--br-2xs);
+  background-color: var(--primary-901);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-102);
+  font-family: var(--h31);
+}

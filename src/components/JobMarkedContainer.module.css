@@ -1,0 +1,262 @@
+.iconschecked {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.jobMarkedComplete {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.iconscheckedParent {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.frameGroup,
+.iconsclose {
+  position: absolute;
+  top: 20px;
+  left: 413px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frameGroup {
+  top: 0;
+  left: 0;
+  background-color: var(--white1);
+  width: 461px;
+  height: 64px;
+}
+.howLikelyWould {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  font-weight: 600;
+  text-align: left;
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  position: absolute;
+  top: 461px;
+  left: 32px;
+  border-radius: var(--br-xs);
+  background-color: var(--green-5003);
+  width: 397px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  cursor: pointer;
+  color: var(--white1);
+}
+.extremelyLikely,
+.leastLikely {
+  position: absolute;
+  top: 5px;
+  left: 52px;
+  font-size: var(--p1-medium3-size);
+  line-height: 155%;
+  font-weight: 600;
+  text-align: left;
+}
+.leastLikely {
+  top: 355px;
+}
+.component14Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-2xs) var(--br-2xs) 0 0;
+  background-color: var(--white1);
+  border: 1px solid var(--grey-8003);
+  box-sizing: border-box;
+}
+.div {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  line-height: 155%;
+  font-weight: 500;
+}
+.component14,
+.component15Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.component15Child {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--white1);
+  border: 1px solid var(--grey-8003);
+  box-sizing: border-box;
+}
+.div1 {
+  position: absolute;
+  top: 25%;
+  left: 36.11%;
+  line-height: 155%;
+  font-weight: 500;
+}
+.component15,
+.component17Child {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.component17Child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--green-5003);
+  border: 1px solid var(--grey-01);
+  box-sizing: border-box;
+}
+.component17 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  color: var(--white1);
+}
+.component18,
+.component19,
+.component20 {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.component19,
+.component20 {
+  top: 140px;
+}
+.component20 {
+  top: 175px;
+}
+.div6 {
+  position: absolute;
+  top: 25%;
+  left: 33.33%;
+  line-height: 155%;
+  font-weight: 500;
+}
+.component21,
+.component22,
+.component23 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.component22,
+.component23 {
+  top: 245px;
+}
+.component23 {
+  top: 280px;
+}
+.div9 {
+  position: absolute;
+  top: 25%;
+  left: 38.89%;
+  line-height: 155%;
+  font-weight: 500;
+}
+.component24,
+.component25Child {
+  position: absolute;
+  top: 315px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.component25Child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 0 var(--br-2xs) var(--br-2xs);
+  background-color: var(--white1);
+  border: 1px solid var(--grey-8003);
+  box-sizing: border-box;
+}
+.component25 {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+.extremelyLikelyParent {
+  position: absolute;
+  top: 60px;
+  left: 144px;
+  width: 174px;
+  height: 386px;
+  color: var(--grey-8003);
+}
+.howLikelyWouldYouRecommendParent {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  background-color: var(--white1);
+  width: 461px;
+  height: 533px;
+  overflow: hidden;
+  font-size: var(--subcopy-medium3-size);
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-901);
+  width: 461px;
+  height: 605px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

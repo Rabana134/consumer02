@@ -1,0 +1,11 @@
+.bookingsCardParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+  font-family: var(--h31);
+}

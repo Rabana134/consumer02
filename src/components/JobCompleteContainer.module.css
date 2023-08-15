@@ -1,0 +1,310 @@
+.iconschecked {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.jobMarkedComplete {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.iconscheckedParent {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.frameGroup,
+.iconsclose {
+  position: absolute;
+  top: 20px;
+  left: 413px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frameGroup {
+  top: 0;
+  left: 0;
+  background-color: var(--white1);
+  width: 461px;
+  height: 64px;
+}
+.reviewsHelpService {
+  position: relative;
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  color: var(--grey-102);
+  display: inline-block;
+  width: 397px;
+}
+.leaveAReviewParent {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.iconsstar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconsstarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xs);
+  cursor: pointer;
+}
+.div {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.frameDiv {
+  position: absolute;
+  top: 86px;
+  left: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-102);
+}
+.label,
+.userInput {
+  position: relative;
+  line-height: 28px;
+}
+.userInput {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  display: inline-block;
+  width: 374px;
+}
+.iconsplaceholder {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.field,
+.thisIsA {
+  position: relative;
+}
+.field {
+  border-radius: var(--br-xs);
+  background-color: var(--grey-100);
+  border: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  width: 398px;
+  height: 96px;
+  flex-shrink: 0;
+  color: var(--grey-102);
+}
+.thisIsA {
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  font-weight: 500;
+  display: none;
+}
+.largeInputs {
+  position: absolute;
+  top: 250px;
+  left: 32px;
+  width: 397px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+  color: var(--grey-201);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label1 {
+  position: relative;
+  line-height: 24px;
+}
+.boundary,
+.largeButtons {
+  position: absolute;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+}
+.largeButtons {
+  top: 394px;
+  left: 32px;
+  background-color: var(--green-5003);
+  width: 397px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--white1);
+}
+.boundary {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-801);
+  border: 1px dashed var(--grey-601);
+}
+.iconsadd,
+.imageAreaIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.imageAreaIcon {
+  height: 98%;
+  width: calc(100% - 2px);
+  top: 1%;
+  right: 1px;
+  bottom: 1%;
+  left: 1px;
+  border-radius: var(--br-2xs);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.iconsadd {
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.imageFrame {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 0;
+}
+.addcancelCircleIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 35.29%;
+  top: 83%;
+  right: -12px;
+  bottom: -18.29%;
+  max-height: 100%;
+  width: 24px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.uploadImage {
+  width: 56px;
+  height: 68px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.imageArea {
+  position: absolute;
+  height: 98%;
+  width: calc(100% - 2px);
+  top: 1%;
+  right: 1px;
+  bottom: 1%;
+  left: 1px;
+  border-radius: var(--br-2xs);
+  background-color: var(--grey-901);
+}
+.addcancelCircleIcon2,
+.iconsadd2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.iconsadd2 {
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  overflow: hidden;
+}
+.addcancelCircleIcon2 {
+  margin: 0 !important;
+  right: -11px;
+  bottom: -7px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.merge,
+.uploadImage2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.uploadImage2 {
+  width: 56px;
+  height: 68px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.merge {
+  position: absolute;
+  top: 142px;
+  left: 34.5px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameContainer {
+  position: absolute;
+  top: 72.5px;
+  left: -0.5px;
+  background-color: var(--white1);
+  width: 461px;
+  height: 462px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-901);
+  width: 461px;
+  height: 534px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

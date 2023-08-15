@@ -1,0 +1,95 @@
+.crosbyOdennehy {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.success {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.crosbyOdennehyParent,
+.transactionPills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.transactionPills {
+  border-radius: var(--br-5xl);
+  background-color: var(--green-5003);
+  padding: var(--padding-7xs) var(--padding-6xs);
+  justify-content: flex-end;
+  text-align: right;
+  font-size: var(--font-size-4xs);
+  color: var(--primary-1001);
+}
+.crosbyOdennehyParent {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  width: 187px;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.iconsplaceholder {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+}
+.div {
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+  font-size: var(--h21-size);
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  font-weight: 600;
+}
+.mastercard1Icon {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.radioBtnIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.mastercard1Parent {
+  position: absolute;
+  right: 20px;
+  bottom: 19px;
+  width: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-6xs);
+}
+.savedCards {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--primary-901);
+  border: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 558px;
+  height: 104px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.savedCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-102);
+  font-family: var(--h31);
+}

@@ -1,0 +1,40 @@
+.budget,
+.jobDetails,
+.location,
+.uploadImages {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.budget,
+.location,
+.uploadImages {
+  top: 60px;
+}
+.budget,
+.uploadImages {
+  top: 120px;
+}
+.uploadImages {
+  top: 180px;
+}
+.progressBarIcon {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 12px;
+  height: 192px;
+}
+.postAJobProgressTracker {
+  position: absolute;
+  top: 156px;
+  left: 261px;
+  width: 145px;
+  height: 208px;
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-102);
+  font-family: var(--h31);
+}

@@ -1,0 +1,367 @@
+.jobDetails {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 32px;
+  line-height: 28px;
+  font-weight: 600;
+  display: none;
+}
+.iconsclose,
+.modalTitle {
+  position: absolute;
+  overflow: hidden;
+}
+.iconsclose {
+  top: calc(50% - 12px);
+  right: 32px;
+  width: 24px;
+  height: 24px;
+}
+.modalTitle {
+  height: 16.37%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 83.63%;
+  left: 0;
+  background-color: var(--white1);
+}
+.illustrationsIcon {
+  position: relative;
+  width: 124px;
+  height: 123px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.splitPaymentSuccessful {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  width: 294px;
+}
+.yourSplitAmount {
+  position: relative;
+  font-size: var(--subcopy-medium3-size);
+  line-height: 24px;
+  color: var(--grey-201);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 253px;
+}
+.illustrationsParent,
+.splitPaymentSuccessfulParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-18xs);
+}
+.illustrationsParent {
+  position: absolute;
+  top: 92px;
+  left: 84px;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  text-align: center;
+}
+.groupChild,
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  position: absolute;
+  top: 94.61px;
+  left: 8.7px;
+  background-color: var(--green-5003);
+  width: 7.17px;
+  height: 18.64px;
+}
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  top: 8.62px;
+  left: 216.57px;
+  background-color: var(--color-royalblue-200);
+}
+.groupInner,
+.rectangleDiv {
+  top: 41.57px;
+  left: 117.66px;
+  background-color: var(--color-indianred);
+}
+.rectangleDiv {
+  top: 398.53px;
+  left: 153.49px;
+  background-color: var(--green-5003);
+  transform: rotate(-164.28deg);
+  transform-origin: 0 0;
+  opacity: 0.47;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  position: absolute;
+  top: 38.71px;
+  left: 63.18px;
+  background-color: var(--green-5003);
+  width: 7.17px;
+  height: 18.64px;
+  transform: rotate(-92.79deg);
+  transform-origin: 0 0;
+  opacity: 0.16;
+}
+.groupChild2,
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 355.52px;
+  left: 78.95px;
+  transform: rotate(-162.76deg);
+  opacity: 0.62;
+}
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 333.26px;
+  left: 279.65px;
+  transform: rotate(-63.38deg);
+  opacity: 0.4;
+}
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 343.94px;
+  left: 32.49px;
+  transform: rotate(-156.68deg);
+  opacity: 0.28;
+}
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 225.07px;
+  left: 23.04px;
+  transform: rotate(168.84deg);
+  opacity: 0.6;
+}
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 67.74px;
+  left: 247.22px;
+  transform: rotate(-91.78deg);
+  opacity: 0.78;
+}
+.groupChild7,
+.groupChild8 {
+  top: 20.93px;
+  left: 170.94px;
+  transform: rotate(-146.54deg);
+  opacity: 0.25;
+}
+.groupChild8 {
+  top: 50.17px;
+  left: 7.27px;
+  background-color: var(--color-royalblue-200);
+  transform: rotate(-110.03deg);
+  opacity: 0.74;
+}
+.groupChild10,
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16,
+.groupChild9 {
+  position: absolute;
+  top: 249.15px;
+  left: 406.1px;
+  background-color: var(--color-royalblue-200);
+  width: 7.17px;
+  height: 18.64px;
+  transform: rotate(169.86deg);
+  transform-origin: 0 0;
+  opacity: 0.55;
+}
+.groupChild10,
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 140.67px;
+  left: 64.49px;
+  transform: rotate(108.51deg);
+  opacity: 0.2;
+}
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 410px;
+  left: 35.94px;
+  transform: rotate(-122.71deg);
+  opacity: 0.03;
+}
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 0;
+  left: 291.12px;
+  transform: rotate(75.04deg);
+  opacity: 0.33;
+}
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 163.43px;
+  left: 378.16px;
+  transform: rotate(78.08deg);
+  opacity: 0.75;
+}
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 401.4px;
+  left: 354.19px;
+  background-color: var(--color-chocolate-200);
+  transform: rotate(87.72deg);
+  opacity: 0.32;
+}
+.groupChild15,
+.groupChild16 {
+  top: 310.82px;
+  left: 143.46px;
+  transform: rotate(-21.3deg);
+}
+.groupChild16 {
+  top: 93.18px;
+  left: 306.89px;
+  transform: rotate(-59.32deg);
+  opacity: 0.88;
+}
+.groupChild17,
+.groupChild18,
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  position: absolute;
+  top: 374.16px;
+  left: 239.67px;
+  background-color: var(--color-chocolate-200);
+  width: 7.17px;
+  height: 18.64px;
+  transform: rotate(179.49deg);
+  transform-origin: 0 0;
+  opacity: 0.86;
+}
+.groupChild18,
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  top: 136.19px;
+  left: 324.09px;
+  transform: rotate(149.58deg);
+  opacity: 0.06;
+}
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  top: 335.46px;
+  left: 186.47px;
+  transform: rotate(59.83deg);
+  opacity: 0.34;
+}
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  top: 313.81px;
+  left: 361.36px;
+  transform: rotate(-35.49deg);
+  opacity: 0.68;
+}
+.groupChild21,
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  top: 101.3px;
+  left: 91.18px;
+  background-color: var(--color-indianred);
+  transform: rotate(97.35deg);
+  opacity: 0.26;
+}
+.groupChild22,
+.groupChild23,
+.groupChild24 {
+  top: 26.54px;
+  left: 379.96px;
+  transform: rotate(110.53deg);
+  opacity: 0.19;
+}
+.groupChild23,
+.groupChild24 {
+  top: 269.51px;
+  left: 5.84px;
+  transform: rotate(-144.51deg);
+  opacity: 0.67;
+}
+.groupChild24 {
+  top: 117.34px;
+  left: 389.08px;
+  transform: rotate(-93.8deg);
+  opacity: 0.76;
+}
+.rectangleParent {
+  position: absolute;
+  top: -9px;
+  left: 18px;
+  width: 407.67px;
+  height: 410px;
+  opacity: 0.3;
+}
+.popupModal {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--white1);
+  box-shadow: var(--popup);
+  width: 461px;
+  height: 391px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

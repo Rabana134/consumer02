@@ -1,0 +1,94 @@
+.share {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.iconsclose,
+.shareParent {
+  position: absolute;
+  overflow: hidden;
+}
+.iconsclose {
+  top: 20px;
+  left: 413px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.shareParent {
+  top: 0;
+  left: 0;
+  background-color: var(--white1);
+  width: 461px;
+  height: 64px;
+}
+.loggworkscomdysonElectrical {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  line-height: 28px;
+}
+.copy {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.copyWrapper {
+  position: absolute;
+  top: 0;
+  left: 332px;
+  background-color: var(--grey-801);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--green-5003);
+}
+.loggworkscomdysonElectricalParent {
+  position: absolute;
+  top: 168px;
+  left: 32px;
+  border-radius: var(--br-2xs);
+  background-color: var(--grey-901);
+  border: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 397px;
+  height: 44px;
+  overflow: hidden;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-102);
+}
+.facebook1Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.facebook1Parent {
+  position: absolute;
+  top: 96px;
+  left: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--white1);
+  width: 461px;
+  height: 261px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

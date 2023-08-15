@@ -1,0 +1,558 @@
+.error,
+.greys,
+.primary,
+.secondary,
+.tertiary {
+  position: absolute;
+  top: 56px;
+  left: 48px;
+  line-height: 99.8%;
+  font-weight: 500;
+}
+.error,
+.primary,
+.secondary,
+.tertiary {
+  top: 240px;
+  left: 30px;
+}
+.error,
+.secondary,
+.tertiary {
+  top: 410px;
+  left: 0;
+}
+.error,
+.tertiary {
+  top: 604px;
+  left: 29px;
+}
+.error {
+  top: 786px;
+  left: 57px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 182px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild {
+  left: 177px;
+  background-color: #006f00;
+}
+.groupItem {
+  left: 317px;
+  background-color: var(--primary-101);
+}
+.groupInner {
+  top: 0;
+  background-color: var(--grey-102);
+}
+.groupChild1,
+.groupChild2,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  left: 317px;
+  width: 140px;
+  height: 132px;
+}
+.rectangleDiv {
+  top: 364px;
+  background-color: #3f27af;
+}
+.groupChild1,
+.groupChild2 {
+  top: 546px;
+  background-color: var(--tertiary-101);
+}
+.groupChild2 {
+  top: 728px;
+  background-color: var(--error-101);
+}
+.groupChild3 {
+  top: 182px;
+  background-color: var(--green-5003);
+}
+.groupChild3,
+.groupChild4,
+.groupChild5 {
+  position: absolute;
+  left: 457px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild4 {
+  top: 0;
+  background-color: var(--grey-201);
+}
+.groupChild5 {
+  top: 364px;
+  background-color: #4d2db7;
+}
+.groupChild6 {
+  top: 546px;
+  left: 457px;
+  background-color: #f3811f;
+}
+.groupChild6,
+.groupChild7,
+.groupChild8,
+.groupChild9 {
+  position: absolute;
+  width: 140px;
+  height: 132px;
+}
+.groupChild7 {
+  top: 728px;
+  left: 457px;
+  background-color: #f02d16;
+}
+.groupChild8,
+.groupChild9 {
+  left: 597px;
+}
+.groupChild8 {
+  top: 182px;
+  background-color: #4ab910;
+}
+.groupChild9 {
+  top: 0;
+  background-color: var(--grey-21);
+}
+.groupChild10,
+.groupChild11,
+.groupChild12 {
+  position: absolute;
+  top: 364px;
+  left: 597px;
+  background-color: #5c35c0;
+  width: 140px;
+  height: 132px;
+}
+.groupChild11,
+.groupChild12 {
+  top: 546px;
+  background-color: #f99022;
+}
+.groupChild12 {
+  top: 728px;
+  background-color: #fe351b;
+}
+.groupChild13,
+.groupChild14 {
+  position: absolute;
+  left: 737px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild13 {
+  top: 182px;
+  background-color: #5ac91a;
+}
+.groupChild14 {
+  top: 0;
+  background-color: var(--grey-401);
+}
+.groupChild15,
+.groupChild16,
+.groupChild17 {
+  position: absolute;
+  top: 364px;
+  left: 737px;
+  background-color: #663ac6;
+  width: 140px;
+  height: 132px;
+}
+.groupChild16,
+.groupChild17 {
+  top: 546px;
+  background-color: #fe9c25;
+}
+.groupChild17 {
+  top: 728px;
+  background-color: #ff3b1f;
+}
+.groupChild18,
+.groupChild19,
+.groupChild20 {
+  position: absolute;
+  left: 877px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild18 {
+  top: 182px;
+  background-color: #77d248;
+}
+.groupChild19,
+.groupChild20 {
+  top: 0;
+  background-color: var(--grey-501);
+}
+.groupChild20 {
+  top: 364px;
+  background-color: var(--color-slateblue);
+}
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  position: absolute;
+  top: 546px;
+  left: 877px;
+  background-color: #feaa3b;
+  width: 140px;
+  height: 132px;
+}
+.groupChild22,
+.groupChild23 {
+  top: 728px;
+  background-color: #ff5f40;
+}
+.groupChild23 {
+  top: 182px;
+  left: 1017px;
+  background-color: #92da6c;
+}
+.groupChild24 {
+  top: 0;
+  background-color: var(--grey-601);
+}
+.groupChild24,
+.groupChild25,
+.groupChild26,
+.groupChild27 {
+  position: absolute;
+  left: 1017px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild25 {
+  top: 364px;
+  background-color: var(--color-slateblue);
+}
+.groupChild26,
+.groupChild27 {
+  top: 546px;
+  background-color: #feba5a;
+}
+.groupChild27 {
+  top: 728px;
+  background-color: #ff7f62;
+}
+.groupChild28,
+.groupChild29 {
+  position: absolute;
+  left: 1157px;
+  width: 140px;
+  height: 132px;
+}
+.groupChild28 {
+  top: 182px;
+  background-color: #b3e598;
+}
+.groupChild29 {
+  top: 0;
+  background-color: var(--grey-701);
+}
+.groupChild30,
+.groupChild31,
+.groupChild32 {
+  position: absolute;
+  top: 364px;
+  left: 1157px;
+  background-color: #b49ee3;
+  width: 140px;
+  height: 132px;
+}
+.groupChild31,
+.groupChild32 {
+  top: 546px;
+  background-color: #fece88;
+}
+.groupChild32 {
+  top: 728px;
+  background-color: #ffa48f;
+}
+.groupChild33,
+.groupChild34 {
+  position: absolute;
+  top: 182px;
+  left: 1297px;
+  background-color: var(--color-lightgoldenrodyellow);
+  width: 140px;
+  height: 132px;
+}
+.groupChild34 {
+  top: 0;
+  background-color: var(--grey-801);
+}
+.groupChild35,
+.groupChild36,
+.groupChild37 {
+  position: absolute;
+  top: 364px;
+  left: 1297px;
+  background-color: #d2c5ee;
+  width: 140px;
+  height: 132px;
+}
+.groupChild36,
+.groupChild37 {
+  top: 546px;
+  background-color: #fee1b7;
+}
+.groupChild37 {
+  top: 728px;
+  background-color: #ffc8bb;
+}
+.groupChild38,
+.groupChild39,
+.groupChild40,
+.groupChild41 {
+  position: absolute;
+  top: 182px;
+  left: 1437px;
+  background-color: var(--green-1001);
+  width: 140px;
+  height: 132px;
+}
+.groupChild39,
+.groupChild40,
+.groupChild41 {
+  top: 0;
+  background-color: var(--grey-901);
+}
+.groupChild40,
+.groupChild41 {
+  top: 182px;
+  left: 1577px;
+  background-color: var(--primary-1001);
+}
+.groupChild41 {
+  top: 0;
+  background-color: var(--grey-100);
+}
+.groupChild42,
+.groupChild43,
+.groupChild44,
+.groupChild45 {
+  position: absolute;
+  top: 364px;
+  left: 1437px;
+  background-color: #ede7f8;
+  width: 140px;
+  height: 132px;
+}
+.groupChild43,
+.groupChild44,
+.groupChild45 {
+  left: 1577px;
+  background-color: #f9f7fd;
+}
+.groupChild44,
+.groupChild45 {
+  top: 546px;
+  left: 1437px;
+  background-color: #fff3e2;
+}
+.groupChild45 {
+  top: 728px;
+  background-color: #fde8e7;
+}
+.groupChild46 {
+  top: 546px;
+  left: 1577px;
+  background-color: var(--tertiary-1001);
+}
+.groupChild46,
+.groupChild47,
+.groupChild48 {
+  position: absolute;
+  width: 140px;
+  height: 132px;
+}
+.groupChild47 {
+  top: 728px;
+  left: 1577px;
+  background-color: #fef6f6;
+}
+.groupChild48 {
+  top: 0;
+  left: 177px;
+  background-color: var(--grey-01);
+}
+.groupChild49,
+.groupChild50,
+.groupChild51 {
+  position: absolute;
+  top: 364px;
+  left: 177px;
+  background-color: #251aa3;
+  width: 140px;
+  height: 132px;
+}
+.groupChild50,
+.groupChild51 {
+  top: 546px;
+  background-color: #e35917;
+}
+.groupChild51 {
+  top: 728px;
+  background-color: #ca0904;
+}
+.ellipseIcon,
+.groupChild52,
+.groupChild53,
+.groupChild54 {
+  position: absolute;
+  top: 140px;
+  left: 517px;
+  width: 20px;
+  height: 20px;
+}
+.groupChild52,
+.groupChild53,
+.groupChild54 {
+  top: 333px;
+}
+.groupChild53,
+.groupChild54 {
+  top: 511px;
+  left: 1077px;
+}
+.groupChild54 {
+  top: 693px;
+  left: 237px;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 48px;
+  font-weight: 500;
+  text-align: left;
+}
+.div1,
+.div10,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  position: absolute;
+  top: 0;
+  left: 133px;
+  line-height: 48px;
+  font-weight: 500;
+}
+.div10,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  left: 271px;
+}
+.div10,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  left: 409px;
+}
+.div10,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  left: 550px;
+}
+.div10,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  left: 691px;
+}
+.div10,
+.div6,
+.div7,
+.div8,
+.div9 {
+  left: 830px;
+}
+.div10,
+.div7,
+.div8,
+.div9 {
+  left: 971px;
+}
+.div10,
+.div8,
+.div9 {
+  left: 1110px;
+  color: var(--color-darkgray-200);
+}
+.div10,
+.div9 {
+  left: 1250px;
+}
+.div10 {
+  left: 1382px;
+}
+.container,
+.group,
+.groupDiv,
+.parent,
+.parent1 {
+  position: absolute;
+  top: 224px;
+  left: 236px;
+  width: 1439px;
+  height: 48px;
+  text-align: center;
+  font-size: var(--h3-bold1-size);
+  color: var(--white1);
+}
+.container,
+.group,
+.groupDiv,
+.parent1 {
+  top: 42px;
+}
+.container,
+.groupDiv,
+.parent1 {
+  top: 406px;
+}
+.groupDiv,
+.parent1 {
+  top: 588px;
+}
+.parent1 {
+  top: 770px;
+}
+.greysParent {
+  position: relative;
+  width: 100%;
+  height: 860px;
+  text-align: right;
+  font-size: var(--h31-size);
+  color: var(--grey-9003);
+  font-family: var(--h31);
+}

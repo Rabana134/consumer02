@@ -1,0 +1,111 @@
+.electriciansNearYou {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.avatarIcon,
+.imageIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.imageIcon {
+  border-radius: var(--br-2xs) var(--br-2xs) 0 0;
+  width: 228px;
+  height: 95px;
+}
+.avatarIcon {
+  width: 20px;
+  height: 20px;
+}
+.avatarParent {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingNumber {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.jobCategory,
+.ratings {
+  font-size: var(--caption-regular1-size);
+  color: var(--grey-201);
+}
+.ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-18xs);
+}
+.jobCategory {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent {
+  gap: var(--gap-18xs);
+}
+.description,
+.descriptionInner,
+.frameParent,
+.professionals {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description,
+.professionals {
+  width: 228px;
+}
+.description {
+  border-radius: 0 0 var(--br-2xs) var(--br-2xs);
+  background-color: var(--white1);
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.professionals {
+  border-radius: var(--br-2xs);
+  box-shadow: var(--card1);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.electriciansNearYouParent,
+.professionalsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--p1-medium3-size);
+}
+.electriciansNearYouParent {
+  position: absolute;
+  top: 1101px;
+  left: 261px;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

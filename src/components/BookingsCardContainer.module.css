@@ -1,0 +1,177 @@
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.peoplename {
+  align-self: stretch;
+  font-weight: 600;
+}
+.date,
+.peoplename {
+  position: relative;
+  line-height: 24px;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--grey-201);
+  width: 1px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.dateParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-18xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-201);
+}
+.avatarParent,
+.dateParent,
+.peoplenameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.peoplenameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.avatarParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-16xs);
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-01);
+}
+.electricianRequiredTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-8003);
+}
+.iconscalendar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameGroup,
+.iconscalendarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.citiessummary3 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  height: 17px;
+}
+.frameParent,
+.iconslocationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xs);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16xs);
+  color: var(--grey-201);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.largeButtons {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--green-5003);
+  box-sizing: border-box;
+  width: 558px;
+  height: 44px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  text-align: center;
+}
+.success {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.transactionStatus {
+  border-radius: var(--br-2xl);
+  background-color: var(--primary-901);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons16pxstar {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.starRating,
+.starRating1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starRating {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-4xs);
+}
+.bookingsCard,
+.bookingsCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookingsCard1 {
+  align-self: stretch;
+  gap: var(--gap-13xs);
+}
+.bookingsCard {
+  border-bottom: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 558px;
+  padding: 0 0 var(--padding-xs);
+  text-align: left;
+  font-size: var(--subcopy-medium3-size);
+  color: var(--green-5003);
+  font-family: var(--h31);
+}

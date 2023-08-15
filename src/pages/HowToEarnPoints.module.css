@@ -1,0 +1,175 @@
+.frameChild {
+  background-color: var(--color-antiquewhite-100);
+}
+.frameChild,
+.maskGroupIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 558px;
+  height: 243.96px;
+}
+.earnLoggPoints {
+  position: absolute;
+  top: 35.04px;
+  left: 179.26px;
+  letter-spacing: -0.02em;
+  line-height: 36px;
+}
+.rectangleParent {
+  position: relative;
+  width: 558px;
+  height: 243px;
+  flex-shrink: 0;
+}
+.collectingLoggPoints {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-7001);
+  display: inline-block;
+  width: 558px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.howEasyIt,
+.theMoreYou {
+  position: relative;
+  display: inline-block;
+}
+.howEasyIt {
+  line-height: 24px;
+  font-weight: 600;
+  width: 295px;
+}
+.theMoreYou {
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-201);
+  width: 558px;
+}
+.howEasyItIsToEarnPointsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.points {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.blankLine {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.every150Container {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-201);
+}
+.verifyYourProfile {
+  margin: 0;
+}
+.bookAServiceContainer {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-201);
+  display: inline-block;
+  width: 264px;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: row;
+  gap: 107px;
+}
+.frameDiv {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.howDoI {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  width: 558px;
+}
+.div,
+.rookieIntermediateSkilledContainer {
+  position: relative;
+  font-size: var(--p1-medium3-size);
+  line-height: 28px;
+  color: var(--grey-201);
+}
+.div {
+  font-weight: 500;
+}
+.rookieIntermediateSkilledContainer {
+  display: inline-block;
+  width: 217px;
+}
+.frameParent2,
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  flex-direction: row;
+  gap: 139px;
+  color: var(--grey-9003);
+}
+.frameParent2 {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  color: var(--grey-01);
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-9003);
+}
+.frameContainer,
+.frameParent,
+.howToEarnPointsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.howToEarnPointsInner {
+  position: absolute;
+  top: 144px;
+  left: 447px;
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-3xl);
+}
+.howToEarnPoints {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 795px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--h21-size);
+  color: var(--green-5003);
+  font-family: var(--h31);
+}

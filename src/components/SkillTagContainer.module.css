@@ -1,0 +1,66 @@
+.skillAndPrice {
+  font-weight: 600;
+}
+.electrotechnical,
+.skillAndPrice {
+  position: relative;
+  line-height: 24px;
+}
+.skillsChild,
+.xIcon {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.skillsChild {
+  border-right: 1px solid var(--grey-31);
+  box-sizing: border-box;
+  width: 1px;
+  height: 19px;
+}
+.xIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.skills,
+.skillsPriceTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skills {
+  border-radius: var(--br-5xl);
+  background-color: var(--white1);
+  border: 1px solid var(--grey-31);
+  padding: var(--padding-8xs) var(--padding-4xs);
+  justify-content: center;
+  gap: var(--gap-14xs);
+}
+.skillsPriceTag {
+  justify-content: flex-end;
+  gap: var(--gap-13xs);
+}
+.frameParent,
+.skillAndPriceTagsParent,
+.skillsPriceTagParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameParent,
+.skillAndPriceTagsParent {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-21);
+}
+.skillAndPriceTagsParent {
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--p1-bold1-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

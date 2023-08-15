@@ -1,0 +1,124 @@
+.onboarding1Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 603px;
+  height: 720px;
+  object-fit: cover;
+}
+.onboarding1Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #1e1e1e, rgba(30, 30, 30, 0));
+  width: 602px;
+  height: 152px;
+}
+.logoIcon {
+  position: absolute;
+  top: 28px;
+  left: 80px;
+  width: 197.33px;
+  height: 32px;
+}
+.verifyPhoneNumber {
+  position: relative;
+  font-size: var(--h21-size);
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  display: inline-block;
+  color: var(--grey-01);
+  width: 398px;
+}
+.div,
+.edit,
+.enterTheVerification {
+  position: relative;
+  line-height: 28px;
+}
+.enterTheVerification {
+  display: inline-block;
+  width: 398px;
+}
+.div,
+.edit {
+  font-weight: 500;
+}
+.edit {
+  color: var(--green-5003);
+  text-align: right;
+}
+.parent,
+.verifyPhoneNumberParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.verifyPhoneNumberParent {
+  position: absolute;
+  top: 84px;
+  left: 837px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-19xs);
+}
+.resendOtp {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--green-5003);
+  display: inline-block;
+  width: 398px;
+}
+.didntGetTheOtpParent {
+  position: absolute;
+  top: 336px;
+  left: 837px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xs);
+}
+.icons20pxplaceholder {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.label {
+  position: relative;
+  line-height: 24px;
+}
+.largeButtons {
+  position: absolute;
+  top: 418px;
+  left: 837px;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-601);
+  width: 398px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-16xs);
+  font-size: var(--subcopy-medium3-size);
+  color: var(--grey-21);
+}
+.onboarding1 {
+  position: relative;
+  background-color: var(--white1);
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-201);
+  font-family: var(--h31);
+}

@@ -1,0 +1,120 @@
+.frameChild {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.connectFacebook {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 28px;
+  font-weight: 500;
+}
+.labelContainer {
+  align-self: stretch;
+  position: relative;
+  height: 28px;
+  flex-shrink: 0;
+}
+.iconsplaceholder,
+.userInput {
+  position: absolute;
+  display: none;
+}
+.iconsplaceholder {
+  top: 12px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+}
+.userInput {
+  width: calc(100% - 16px);
+  top: 10px;
+  left: 8px;
+  line-height: 28px;
+}
+.dotChild {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+}
+.dot {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-17xs);
+}
+.baseField {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-100);
+  border: 1px solid var(--grey-701);
+  box-sizing: border-box;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--grey-102);
+}
+.div,
+.thisIsA {
+  position: absolute;
+  top: 0;
+  line-height: 24px;
+}
+.thisIsA {
+  left: 0;
+}
+.div {
+  right: 0;
+  text-align: right;
+}
+.helperTextContainer {
+  align-self: stretch;
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+  font-size: var(--subcopy-medium3-size);
+}
+.frameParent,
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  width: 558px;
+  gap: var(--gap-19xs);
+  color: var(--grey-201);
+}
+.frameParent {
+  position: absolute;
+  top: 149px;
+  left: 455px;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--p1-medium3-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}

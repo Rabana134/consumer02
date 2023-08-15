@@ -1,0 +1,197 @@
+.electriciansNearCoventry,
+.sort {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  width: 529px;
+  flex-shrink: 0;
+}
+.sort {
+  text-align: right;
+  width: 205px;
+}
+.electriciansNearCoventryParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameChild {
+  position: relative;
+  border-top: 1px solid var(--grey-801);
+  box-sizing: border-box;
+  width: 749px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.filters,
+.frameParent {
+  position: absolute;
+  top: 84px;
+}
+.frameParent {
+  left: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xs);
+}
+.filters {
+  left: 1040px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.component76Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-limegreen-100);
+}
+.div {
+  position: absolute;
+  height: 46.67%;
+  width: 23.33%;
+  top: 26.67%;
+  left: 40%;
+  line-height: 100%;
+  font-weight: 500;
+  display: inline-block;
+}
+.component76 {
+  position: absolute;
+  top: 0;
+  left: 125px;
+  width: 30px;
+  height: 30px;
+  text-align: left;
+  color: var(--white1);
+}
+.component77Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--gray-61);
+}
+.component77 {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  width: 30px;
+  height: 30px;
+}
+.component78,
+.component79,
+.component80,
+.component81 {
+  position: absolute;
+  top: 0;
+  left: 217px;
+  width: 30px;
+  height: 30px;
+}
+.component79,
+.component80,
+.component81 {
+  left: 263px;
+}
+.component80,
+.component81 {
+  left: 309px;
+}
+.component81 {
+  left: 355px;
+}
+.component82,
+.component83,
+.component84,
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 401px;
+  width: 30px;
+  height: 30px;
+}
+.component83,
+.component84,
+.frameIcon {
+  left: 447px;
+}
+.component84,
+.frameIcon {
+  left: 493px;
+}
+.frameIcon {
+  left: 48px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.next {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 100%;
+  font-weight: 500;
+}
+.frameGroup,
+.frameIcon1 {
+  position: absolute;
+  top: 3px;
+  left: 546px;
+  width: 72px;
+  height: 24px;
+}
+.frameIcon1 {
+  top: 0;
+  left: 0;
+  width: 24px;
+  overflow: hidden;
+}
+.previous {
+  position: absolute;
+  top: 4px;
+  left: 29px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.frameContainer {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 104px;
+  height: 24px;
+}
+.component76Parent {
+  position: absolute;
+  top: 1642px;
+  left: 326px;
+  width: 618px;
+  height: 30px;
+  text-align: center;
+  font-size: var(--p1-bold1-size);
+  color: var(--color-black);
+}
+.messages {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1820px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h31-size);
+  color: var(--grey-01);
+  font-family: var(--h31);
+}
